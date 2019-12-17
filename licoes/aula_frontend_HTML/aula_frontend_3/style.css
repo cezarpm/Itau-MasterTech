@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+#topbar {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.topbar_menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.topbar_menu_item {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-right: 10px;
+    
+}
+.topbar_call-to-action {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: goldenrod;
+    font-size: 20px;
+    border: goldenrod 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
